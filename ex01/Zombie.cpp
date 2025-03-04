@@ -1,7 +1,6 @@
 #include "Zombie.hpp"
 
-void Zombie::announce(void){
-    
+void Zombie::announce(void){  
     std::cout << this->name << " : BraiiiiiiinnnzzzZ... \n";
 }
 

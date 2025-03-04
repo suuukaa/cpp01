@@ -2,7 +2,7 @@ NAME = zombie
 CC = c++ -std=c++98
 CFLAGS =  -Wall -Wextra -Werror
 
-SRC = main.cpp zombie.cpp zombieHorde.cpp
+SRC = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp 
 
 all: $(NAME)
 
