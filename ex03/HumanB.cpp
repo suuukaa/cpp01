@@ -15,3 +15,5 @@ void HumanB::attack(){
     else
         std::cout << "oh noo there is no weapon :)";
 }
+
+HumanB::~HumanB(){}
