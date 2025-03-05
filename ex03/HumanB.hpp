@@ -3,10 +3,15 @@
 
 #include "Weapon.hpp"
 
-class Humanb{
+class HumanB{
 
     std::string name;
     Weapon *weapon;
+
+    public :
+        HumanB(std::string name)
+        ~HumanB();
+        void attack();
 };
 
 #endif

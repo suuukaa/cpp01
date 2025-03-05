@@ -7,6 +7,9 @@ class HumanA{
 
     std::string name;
     Weapon &weapon;
+
+    public :
+        void attack();
 };
 
 #endif
