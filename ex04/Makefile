@@ -2,13 +2,13 @@ NAME = ex04
 CC = c++ -std=c++98
 CFLAGS =  -Wall -Wextra -Werror
 
-SRC = main.cpp replace.cpp
+SRC = main.cpp
 
 all: $(NAME)
 
 OBJ = $(SRC:.cpp=.o)
 
-%.o: %.cpp replace.hpp
+%.o: %.cpp
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJ)
